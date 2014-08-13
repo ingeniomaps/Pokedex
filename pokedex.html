@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Pokedex</title>
+	<link rel="stylesheet" href="./pokedex.css">
+	<script type="text/javascript" src="./pokedex.js"></script>
+</head>
+<body>
+	<h1>Pokedex</h1>
+	<section id="pokedex">
+		<img id="fondo" src="./img/pokedex.png">
+		<img id="pokemon" src="./img/pokeball.jpg">
+		<div id="datos">
+			<label id="nPoke"></label>
+			<label id="vPoke" class="esp"></label>
+			<label id="aPoke" class="esp"></label>
+		</div>
+		<ul>
+			<li onclick="inicializar(this.textContent)">Pikachu</li>
+			<li onclick="inicializar(this.textContent)">Mewtwo</li>
+			<li onclick="inicializar(this.textContent)">Bulbasaur</li>
+			<li onclick="inicializar(this.textContent)">Feraligatr</li>
+			<li onclick="inicializar(this.textContent)">Meganium</li>
+			<li onclick="inicializar(this.textContent)">Typhlosion</li>
+		</ul>
+	</section>
+</body>
+</html>
